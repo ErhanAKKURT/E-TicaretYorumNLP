@@ -39,7 +39,7 @@ X=cv.fit_transform(df['Metin']).toarray();
 y=df['Durum']
 
 x_train,x_test,y_train,y_test=train_test_split(X,y,train_size=0.75,random_state=42)
-
+st.header('E-Ticaret Ürün Yorumları NLP Projesi')
 yorum=st.text_area('Yorum Metnini Giriniz')
 btn=st.button('Yorumu Kategorilendir')
 
@@ -108,7 +108,7 @@ X=cv.fit_transform(df['Metin']).toarray();
 y=df['Durum']
 
 x_train,x_test,y_train,y_test=train_test_split(X,y,train_size=0.75,random_state=42)
-
+st.header('E-Ticaret Ürün Yorumları NLP Projesi')
 yorum=st.text_area('Yorum Metnini Giriniz')
 btn=st.button('Yorumu Kategorilendir')
 
